@@ -158,7 +158,7 @@ main {
 .popular-text,
 .categories-text {
     padding-bottom: 5px;
-    border-bottom: 1px solid #f7f7f7
+    border-bottom: 1px solid #f7f7f7;
     margin-bottom: 5px;
 }
 
@@ -220,4 +220,30 @@ footer {
 
 .footer-text {
     color: #fff;
+}
+
+/*すべての顔面*/
+.social i {
+    color: black;
+}
+
+/*タブレット横置き(1024px)以下*/
+@media screen and (max-width:1024px){
+    .social i{
+        color: green;
+    }
+}
+
+/*タブレット縦置き(768px)以下*/
+@media screen and (max-width:768px){
+    .social i{
+        color: red;
+    }
+}
+
+/*スマートフォンサイズ(435px)以下*/
+@media screen and (max-width:435px){
+    .social i{
+        color: blue;
+    }
 }
